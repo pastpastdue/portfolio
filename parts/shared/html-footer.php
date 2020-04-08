@@ -2,7 +2,7 @@
 	<script>window.jQuery || document.write('<script src="http://code.jquery.com/jquery-1.9.1.min.js"><\/script>')</script>
 
 	<?php if(is_home() || is_single() || is_category() || is_page()) { ?>
-		<script type="text/javascript" defer src="<?php echo get_template_directory_uri(); ?>/js/lastfm-min.js"></script>
+		<script type="text/javascript" defer src="http://2020.ericcroskey.com/js/lastfm-min.js"></script>
 	<?php } if (is_single()) { ?>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/video-player.js"></script>
 	<?php } if (is_page('information')) {?>
