@@ -15,7 +15,6 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico"/>
-		<script type="text/javascript" defer src="<?php echo get_template_directory_uri(); ?>/js/lastfm-min.js"></script>
 
 	</head>
 	<body <?php body_class(); ?>>

@@ -10,7 +10,7 @@
 			defaults,options
 		);
 
-			var lastUrl='http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user='+settings.username+'&api_key='+settings.apikey+'&limit='+settings.number+'&format=json&callback=?';
+			var lastUrl='https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user='+settings.username+'&api_key='+settings.apikey+'&limit='+settings.number+'&format=json&callback=?';
 			var $this=$(this);
 			var container=$this.html();
 
