@@ -583,7 +583,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#pageContent {
 		width: 224px;
 		float: left;
-		padding: 0 0 0 0;
+		padding: 0 0 50px 0;
 	}
 
 	#page h2 {
@@ -607,7 +607,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	.firstCol {
 		position: absolute;
 		top: 168px;
-		padding: 10px 0 0 0!important;
+		padding-top: 10px!important;
 		z-index: 1000;
 		background: #fff;
 		width: 224px;
