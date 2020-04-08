@@ -14,11 +14,11 @@ CONTENTS:
 
 01 Sensible defaults
 02 Typography
-03 Media queries 
+03 Media queries
 ===========================
 */
 
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 01 Sensible defaults ----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
@@ -53,7 +53,7 @@ a:link {
 	outline: none;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 02 Typography -----------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 /*
@@ -76,27 +76,27 @@ textarea 			{ /* We strongly recommend you declare font-weight using numerical v
 	letter-spacing: -1px;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 					{ font-weight: bold; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
 
-/* ---------------------------------------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------------------------------------
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------- */
 
 /* 400 and up */
 @media screen and (min-width:480px) {
-		
+
 	#siteContainer {
 		border: 8px solid #4848d8;
 		overflow-x: hidden;
 		overflow-y: scroll;
 		z-index: 50000;
 	}
-	
+
 	#globalNav {
 		display: block;
 		position: fixed;
@@ -109,12 +109,12 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		line-height: 18px;
 		background: #fff;
 	}
-	
+
 	#nav li.currentlyViewing {
 		border-bottom: 5px solid #4848d8;
 		font-size: 12px;
 	}
-	
+
 	#nav li.currentlyViewing a.selected {
 		text-decoration: none;
 		color: #000;
@@ -122,17 +122,17 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 5px 5px 7px 5px;
 
 	}
-	
+
 	.bold {
 		font-weight: bold;
 	}
-	
+
 	.floatRight {
 		float: right;
 		padding: 0 4px 0 0;
 		display: block;
 	}
-	
+
 	.blue {
 		color: #4848d8;
 	}
@@ -148,74 +148,74 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		z-index: 500;
 		line-height:18px;
 	}
-	
+
 	#nav li ul a {
 		color: #fff;
 		text-decoration: none;
 	}
-	
+
 	#nav li:hover ul {
 		left: auto;
 	}
-	
+
 	#menu-featured-nav {
 		padding: 26px 0 0 0;
 		font-size: 10px;
 		line-height: 18px;
 	}
-	
+
 	#menu-featured-nav a {
 		text-decoration: none;
 		color: #000;
 		padding: 0 0 0 5px;
 	}
-	
+
 	#menu-featured-nav a:hover {
 		color: #ff5759!important;
 	}
-	
+
 	#menu-featured-nav li.current-menu-item a {
 		text-decoration: none;
 		color: #4848d8;
 		font-weight: bold;
 		padding: 0 0 0 5px;
 	}
-	
+
 	#menu-featured-nav li.current-menu-item a:hover {
 		text-decoration: none;
 		color: #ff5759!important;
 		font-weight: bold;
 		padding: 0 0 0 5px;
-	}		
-	
+	}
+
 	#menu-utility-nav {
 		padding: 26px 0 0 0;
 		font-size: 10px;
 		line-height: 18px;
 	}
-	
+
 	#menu-utility-nav a {
 		text-decoration: none;
 		color: #999;
 		padding: 0 0 0 5px;
 	}
-	
+
 	#menu-utility-nav a:hover {
 		color: #ff5759!important;
 	}
-	
+
 	#menu-utility-nav li.current-menu-item a {
 		text-decoration: none;
 		color: #4848d8;
 		font-weight: bold;
 		padding: 0 0 0 5px;
-	}	
-	
+	}
+
 	.projectList {
 		overflow: hidden;
 		padding: 20px 257px 20px 20px;
 	}
-	
+
 	 .post {
 		width: 194px;
 		height: 126px;
@@ -227,7 +227,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border: 5px solid #fff;
 		background: #fff;
 	}
-	
+
 	 .namePost {
 		width: 194px;
 		height: 126px;
@@ -237,9 +237,9 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 10px;
 		line-height: 18px;
 		border: 5px solid #4848d9;
-		background: #fff;	
+		background: #fff;
 	}
-	
+
 	.blue-divider {
 		color: #4848d8!important;
 		font-size: 11px!important;
@@ -250,46 +250,46 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-align: justify;
 		height: 18px;
 	}
-	
+
 	.fixedDiv {
 		position: absolute!important;
 		z-index: 50000;
-		
+
 	}
-	
+
 	.floatLeft {
 		float: left;
 		display: block;
 		width: 224px;
 		padding: 0 30px 0 0;
 	}
-	
+
 	.namePost a {
 		text-decoration: none;
 		display: block;
 	}
-	
+
 	.namePost h1 {
 		padding: 2px 0 0 0;
 		text-transform: uppercase;
 		color: #4848d8;
 	}
-	
+
 	 .namePost p {
 		font-size: 10px;
 		color: #000;
 		width: 190px;
 	}
-	
+
 	 .namePost p.summary {
 		height: 70px;
 		overflow: hidden;
 	}
-	
+
 	 .dataPost {
-		border-color: #ff575a!important;		
+		border-color: #ff575a!important;
 	}
-	
+
 	.orange-divider {
 		color: #ff5759!important;
 		font-size: 11px!important;
@@ -300,19 +300,19 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-align: justify;
 		height: 18px;
 	}
-	
+
 	 .dataPost a {
 		text-decoration: none;
 	}
-	
-	
+
+
 	 .dataPost h1 {
 		padding: 2px 0 0 0;
 		text-transform: uppercase;
 		color: #ff5759;
 		font-size: 16px;
 	}
-	
+
 	 .dataPost ul {
 		font-size: 10px;
 		color: #000;
@@ -320,11 +320,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		height: 70px;
 		overflow: hidden;
 	}
-	
+
 	.dataPost ul li {
 		height: 72px;
 	}
-	
+
 	 .dataPost ul li h4  {
 		display: block;
 		font-weight: bold;
@@ -333,30 +333,30 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		width: 180px;
 		color: #000;
 	}
-	
+
 	.sb_tlst {
 		display: block;
 		font-weight: bold;
-		font-size: 10px;		
+		font-size: 10px;
 		overflow: hidden;
 		width: 180px;
 		height: 36px;
 	}
-	
+
 	 .dataPost ul li h5  {
 		font-weight: 400!important;
 		color: #000!important;
 		height: 18px;
 		overflow: hidden;
 	}
-	
+
 	 .dataPost ul li h6  {
 		font-weight: 400!important;
 		color: #999!important;
 		height: 18px;
 		overflow: hidden;
 	}
-	
+
 	.sa_mc {
 		display: inline-block;
 		font-weight: 400!important;
@@ -365,7 +365,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		font-size: 10px;
 		height: 70px;
 	}
-	
+
 	 .projectPost  {
 		border-color: #ffffff;
 		width: 224px;
@@ -376,28 +376,35 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		float: left;
 		line-height: 18px!important;
 	}
-	
+
 	 .projectPost .projectThumb {
 		width: 224px;
 		height: 156px;
 		position: absolute;
 	}
-	
+
 	 .projectPost .projectThumb div {
 		width: 224px;
 		height: 156px;
 		display: table-cell;
 		text-align: center;
-		vertical-align: middle;	
+		vertical-align: middle;
 	}
-	
+
+	.projectPost .projectThumb div img {
+		width: auto;
+		max-width: 100%;
+		max-height: 100%;
+		height: auto;
+	}
+
 	 .projectPost a .projectDetails {
 		color: #000;
 		width: 224px;
 		height: 156px;
 		overflow: hidden;
 	}
-	
+
 	 .projectPost a .projectDetails h2 {
 		display: block;
 		font-weight: bold;
@@ -410,7 +417,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 3px 4px 0 4px;
 		color: #fff;
 	}
-	
+
 	 .projectPost a .projectDetails h3 {
 		display: inline-block;
 		font-weight: 400!important;
@@ -420,31 +427,33 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		background: #fff;
 		padding: 3px 3px 0 4px;
 	}
-	
+
 	 .projectPost a .projectDetails {
 		position: absolute;
 		display: none;
 	}
-	
+
 	 .projectPost:hover a .projectDetails {
 		display: block;
-		
+
 	}
-	
-	
-	
+
+
+
 	#singlePost {
 		margin: 41px 41px 0 41px;
 		width: 840px;
 	}
-	
+
 	#imageList {
 		padding: 0 0 150px 0;
 	}
-	
+
 	#imageList img {
 		padding: 0 0 10px 0;
-	}	
+		max-width: 100%;
+		height: auto;
+	}
 	#projectContent {
 		width: 840px;
 		position: fixed;
@@ -455,7 +464,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		overflow: hidden;
 		line-height: 18px!important;
 	}
-	
+
 	#projectSummary {
 		width: 520px;
 		float: left;
@@ -464,7 +473,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 0 60px 0 0;
 		margin: 0 0 30px 0;
 	}
-	
+
 	#projectSummary h2 {
 		font-size: 14px;
 		text-transform: uppercase;
@@ -472,12 +481,12 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		border-bottom: 3px solid #ff5759;
 	}
-	
+
 	#projectSummary p {
 		font-size: 10px;
 		padding: 0 0 18px 0;
 	}
-	
+
 	#projectInfo {
 		width: 260px;
 		float: left;
@@ -485,7 +494,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		margin: 0 0 0 0;
 
 	}
-	
+
 	#projectInfo .processLinkBox {
 		display: block;
 		width: 230px;
@@ -493,7 +502,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		height: 37px;
 		padding: 0 0 0 30px;
 	}
-	
+
 	#projectInfo .processLinkBox a {
 		font-size: 10px;
 		text-decoration: none;
@@ -505,31 +514,31 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 2px 4px 0 4px;
 		border-bottom: 0;
 	}
-	
+
 	#projectInfo .infoBox {
 		width: 100px;
 		float: left;
 		padding: 0 0 0 30px;
 	}
-	
+
 	#projectInfo h4 {
 		font-size: 10px;
 	}
-	
+
 	#projectInfo p {
 		font-size: 10px;
 	}
-	
+
 	video {
 		display: block;
 	}
-	
+
 	.simple-video-wrapper {
 		position: relative;
 		width: 840px;
 		margin: 0 0 10px 0;
 	}
-	
+
 	.simple-video-overlay {
 		background: rgba(140,140,140,0.9);
 		cursor: pointer;
@@ -541,7 +550,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		top: 0;
 		z-index: 2;
 	}
-	
+
 	.simple-video-overlay span {
 		display: block;
 		position: relative;
@@ -552,28 +561,28 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		color: #fff;
 		font-size: 15px;
 	}
-	
+
 	p a {
 		text-decoration: none;
 		color: #000;
-		border-bottom: 1px dotted #ff5759; 
+		border-bottom: 1px dotted #ff5759;
 	}
-	
+
 	p a:hover {
-		border-bottom: 1px dotted #4848d8; 
+		border-bottom: 1px dotted #4848d8;
 	}
-	
+
 	#page {
 		margin: 37px 41px 0 41px;
 		width: 840px;
 	}
-	
+
 	#pageContent {
 		width: 224px;
 		float: left;
 		padding: 0 0 0 0;
 	}
-		
+
 	#page h2 {
 		font-size: 14px;
 		text-transform: uppercase;
@@ -581,17 +590,17 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		border-bottom: 3px solid #ff5759;
 	}
-	
+
 	#page p {
 		font-size: 10px;
 		padding: 0 0 18px 0;
 		line-height: 18px;
 	}
-	
+
 	.gray {
 		color: #999;
 	}
-	
+
 	.firstCol {
 		position: absolute;
 		top: 168px;
@@ -600,22 +609,22 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		background: #fff;
 		width: 224px;
 	}
-	
+
 	.secondCol {
 		position: absolute;
 		padding: 16px 0 0 0!important;
 		z-index: 1000;
 		left: 254px;
-		background: #fff;		
+		background: #fff;
 		width: 224px;
 	}
-	
+
 	.thirdCol {
 		position: absolute;
 		padding: 16px 0 0 0!important;
 		z-index: 1000;
 		left: 508px;
-		background: #fff;		
+		background: #fff;
 		width: 224px;
 	}
 
@@ -625,7 +634,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		z-index: 1000;
 		background: #fff;
 	}
-	
+
 	.resumeDiv a.download {
 		background: #ff5759;
 		color: #fff;
@@ -633,7 +642,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 2px 4px 0 4px;
 		border-bottom: 0;
 	}
-	
+
 	.resumeDiv a.download:hover {
 		background: #4848d8;
 		color: #fff;
@@ -641,77 +650,77 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 2px 4px 0 4px;
 		border-bottom: 0;
 	}
-	
+
 	.resumeDiv p {
 		font-size: 10px;
 		padding: 0 0 18px 0;
 		line-height: 18px;
 	}
-	
+
 	.secondCol {
 		position: absolute;
 	}
-	
+
 	.absoluteDiv {
 		position: absolute!important;
 	}
-	
+
 	.instagramPost  {
 		width: 224px;
 		height: 156px;
 		display: table-cell;
 		text-align: center;
-		vertical-align: middle;	
+		vertical-align: middle;
 	}
-	
+
 	.instagramPost img {
 		width: 156px;
 		height: 156px;
 	}
 
-	.your-name input,.your-email input { 
-		font-family: 'TipografiaRamis - CentimaMono'; 
-		width: 394px;	
-		font-size: 11px;	
-		height: 23px;	
-		border: 0; 
-		border-bottom:3px solid #4848d8; 
-		line-height: 24px;	
-		color: #373d46; 
-		background: #f9f9f9 ; 
-		outline: none; 
+	.your-name input,.your-email input {
+		font-family: 'TipografiaRamis - CentimaMono';
+		width: 394px;
+		font-size: 11px;
+		height: 23px;
+		border: 0;
+		border-bottom:3px solid #4848d8;
+		line-height: 24px;
+		color: #373d46;
+		background: #f9f9f9 ;
+		outline: none;
 		padding: 4px
 	}
-	
-	.your-message textarea { 
-		font-family: 'TipografiaRamis - CentimaMono'; 
-		width: 394px;	
-		font-size: 11px;	
-		height: 100px;	
-		padding: 3px; 
-		border: 0; 
-		border-bottom:3px solid #4848d8; 
+
+	.your-message textarea {
+		font-family: 'TipografiaRamis - CentimaMono';
+		width: 394px;
+		font-size: 11px;
+		height: 100px;
+		padding: 3px;
+		border: 0;
+		border-bottom:3px solid #4848d8;
 		line-height:18px;
-		color: #373d46; 
-		background: #f9f9f9; 
-		outline: none; 
-	}
-	
-	input.wpcf7-submit { 
-		font-family: 'TipografiaRamis - CentimaMono'; 
-		width: 92px; 
-		margin: 4px 0 0 0; 
-		padding: 4px 4px 8px 4px!important;	
-		font-size: 11px;	
-		height: 30px;	
-		border: 0; 
-		border-bottom:1px solid #ff5759; 
-		line-height: 27px;	
-		color: #fff; 
-		background: #ff5759; 
+		color: #373d46;
+		background: #f9f9f9;
 		outline: none;
 	}
-	
+
+	input.wpcf7-submit {
+		font-family: 'TipografiaRamis - CentimaMono';
+		width: 92px;
+		margin: 4px 0 0 0;
+		padding: 4px 4px 8px 4px!important;
+		font-size: 11px;
+		height: 30px;
+		border: 0;
+		border-bottom:1px solid #ff5759;
+		line-height: 27px;
+		color: #fff;
+		background: #ff5759;
+		outline: none;
+	}
+
 	footer {
 		font-size: 10px;
 		color: #ddd;
@@ -725,7 +734,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		z-index: 500000;
 		line-height: 18px;
 	}
-	
+
 	#archiveWork .projectList {
 		width: 244px;
 		margin: 0 0 0 0;
@@ -733,13 +742,13 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		float: left;
 		overflow: auto;
 	}
-	
+
 	.projectContainer {
 		padding: 37px 0 0 0;
 		overflow: auto;
 		width: 50%;
 	}
-	
+
 	.listContainer {
 		width: 194px;
 		padding: 0;
@@ -750,7 +759,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border: 5px solid #fff;
 		background: #fff;
 	}
-	
+
 	.listContainer h2 {
 		font-size: 14px;
 		text-transform: uppercase;
@@ -758,27 +767,27 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		border-bottom: 3px solid #ff5759;
 	}
-	
+
 	.listContainer ul {
 		padding: 0 0 18px 0;
 		font-size: 10px;
 		line-height: 18px;
 	}
-	
+
 	.listContainer ul a {
 		text-decoration: none;
 		color: #000;
 		padding: 0 0 0 5px;
 	}
-	
+
 	.listContainer ul a:hover {
 		color: #ff5759!important;
 	}
-	
+
 	span.redact {
 		letter-spacing: -1px;
 	}
-	
+
 	#menu-featured-nav li.current-menu-item a {
 		text-decoration: none;
 		color: #4848d8;
@@ -789,14 +798,14 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 
 @media screen and (max-width:480px) {
-	
+
 	#siteContainer {
 		border: 8px solid #4848d8;
 		overflow-x: hidden;
 		overflow-y: scroll;
 		z-index: 50000;
 	}
-	
+
 	#globalNav {
 		display: block;
 		position: absolute;
@@ -807,17 +816,17 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		line-height: 18px;
 		background: #fff;
 	}
-	
+
 	.mobileHider {
 		display: none!important;
 	}
-	
+
 	#nav li.currentlyViewing {
 		font-size: 15px;
 		width: 90%;
 		margin: 0 auto;
 	}
-	
+
 	#nav li.currentlyViewing a.selected {
 		font-size: 15px;
 		text-transform: uppercase;
@@ -828,16 +837,16 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-decoration: none;
 		color: #000;
 	}
-	
+
 	.bold {
 		font-weight: bold;
 	}
-	
+
 	.floatRight {
 		padding: 0 4px 0 0;
 		display: none;
 	}
-	
+
 	.blue {
 		color: #4848d8;
 	}
@@ -845,16 +854,16 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#nav li ul {
 		display: none;
 	}
-	
+
 	#nav li ul a {
 		color: #fff;
 		text-decoration: none;
 	}
-	
+
 	#nav li:hover ul {
 		left: auto;
 	}
-	
+
 	#menu-featured-nav {
 		padding: 0px 0 0 0;
 		font-size: 15px;
@@ -862,31 +871,31 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		width: 90%;
 		margin: 0 auto;
 	}
-	
+
 	#menu-featured-nav a {
 		text-decoration: none;
 		color: #000;
 		padding: 0;
 	}
-	
+
 	#menu-featured-nav a:hover {
 		color: #ff5759!important;
 	}
-	
+
 	#menu-featured-nav li.current-menu-item a {
 		text-decoration: none;
 		color: #4848d8;
 		font-weight: bold;
 		padding: 0 0 0 5px;
 	}
-	
+
 	#menu-featured-nav li.current-menu-item a:hover {
 		text-decoration: none;
 		color: #ff5759!important;
 		font-weight: bold;
 		padding: 0 0 0 5px;
-	}		
-	
+	}
+
 	#menu-utility-nav {
 		padding: 20px 0 0 0;
 		font-size: 15px;
@@ -894,33 +903,33 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		width: 90%;
 		margin: 0 auto;
 	}
-	
+
 	#menu-utility-nav a {
 		text-decoration: none;
 		color: #999;
 		padding: 0;
 	}
-	
+
 	#menu-utility-nav a:hover {
 		color: #ff5759!important;
 	}
-	
+
 	#menu-utility-nav li.current-menu-item a {
 		text-decoration: none;
 		color: #4848d8;
 		font-weight: bold;
 		padding: 0 0 0 5px;
-	}	
-	
+	}
+
 	.projectList {
 		overflow: hidden;
 		width: 100%;
 	}
-	
+
 	.projectList.home .dataPost {
 		display: none;
 	}
-	
+
 	 .post {
 		width: 80%;
 		overflow: hidden;
@@ -930,7 +939,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border: 5px solid #fff;
 		background: #fff;
 	}
-	
+
 	 .namePost {
 		width: 80%;
 		margin: 20px auto 20px auto;
@@ -938,9 +947,9 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 10px;
 		line-height: 18px;
 		border: 5px solid #4848d9;
-		background: #fff;	
+		background: #fff;
 	}
-	
+
 	.blue-divider {
 		color: #4848d8!important;
 		font-size: 11px!important;
@@ -951,45 +960,45 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-align: justify;
 		height: 18px;
 	}
-	
+
 	.fixedDiv {
 		position: absolute!important;
 		z-index: 50000;
 	}
-	
+
 	.floatLeft {
 		float: left;
 		display: block;
 		width: 224px;
 		padding: 0 30px 0 0;
 	}
-	
+
 	.namePost a {
 		text-decoration: none;
 		display: block;
 	}
-	
+
 	.namePost h1 {
 		padding: 2px 0 0 0;
 		text-transform: uppercase;
 		color: #4848d8;
 	}
-	
+
 	 .namePost p {
 		font-size: 10px;
 		color: #000;
 		display: none;
 	}
-	
+
 	 .namePost p.summary {
 		height: 70px;
 
 	}
-	
+
 	 .dataPost {
 		border-color: #ff575a!important;
 	}
-	
+
 	.orange-divider {
 		color: #ff5759!important;
 		font-size: 11px!important;
@@ -1000,19 +1009,19 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-align: justify;
 		display: none;
 	}
-	
+
 	 .dataPost a {
 		text-decoration: none;
 	}
-	
-	
+
+
 	 .dataPost h1 {
 		padding: 2px 0 0 0;
 		text-transform: uppercase;
 		color: #ff5759;
 		font-size: 16px;
 	}
-	
+
 	 .dataPost ul {
 		font-size: 10px;
 		color: #000;
@@ -1021,11 +1030,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		overflow: hidden;
 		display: none;
 	}
-	
+
 	.dataPost ul li {
 		height: 72px;
 	}
-	
+
 	 .dataPost ul li h4  {
 		display: block;
 		font-weight: bold;
@@ -1034,30 +1043,30 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		width: 180px;
 		color: #000;
 	}
-	
+
 	.sb_tlst {
 		display: none;
 		font-weight: bold;
-		font-size: 10px;		
+		font-size: 10px;
 		overflow: hidden;
 		width: 180px;
 		height: 36px;
 	}
-	
+
 	 .dataPost ul li h5  {
 		font-weight: 400!important;
 		color: #000!important;
 		height: 18px;
 		overflow: hidden;
 	}
-	
+
 	 .dataPost ul li h6  {
 		font-weight: 400!important;
 		color: #999!important;
 		height: 18px;
 		overflow: hidden;
 	}
-	
+
 	.sa_mc {
 		display: none;
 		font-weight: 400!important;
@@ -1066,7 +1075,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		font-size: 10px;
 		height: 70px;
 	}
-	
+
 	 .projectPost  {
 		border-color: #ffffff;
 		width: 100%;
@@ -1076,34 +1085,34 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		overflow: hidden;
 		line-height: 18px!important;
 	}
-	
+
 	.projectPost a {
 		display: block;
 		width: 100%;
 	}
-	
+
 	 .projectPost .projectThumb {
 		width: 224px;
 		margin: 0 auto;
 		height: 156px;
 		position: absolute;
 	}
-	
+
 	 .projectPost .projectThumb div {
 		width: 224px;
 		height: 156px;
 		display: table-cell;
 		text-align: center;
-		vertical-align: middle;	
+		vertical-align: middle;
 	}
-	
+
 	 .projectPost a .projectDetails {
 		color: #000;
 		width: 224px;
 		height: 156px;
 		overflow: hidden;
 	}
-	
+
 	 .projectPost a .projectDetails h2 {
 		display: block;
 		font-weight: bold;
@@ -1116,7 +1125,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 3px 4px 0 4px;
 		color: #fff;
 	}
-	
+
 	 .projectPost a .projectDetails h3 {
 		display: inline-block;
 		font-weight: 400!important;
@@ -1126,35 +1135,35 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		background: #fff;
 		padding: 3px 3px 0 4px;
 	}
-	
+
 	 .projectPost a .projectDetails {
 		position: absolute;
 		display: none;
 	}
-	
+
 	 .projectPost:hover a .projectDetails {
 		display: block;
-		
+
 	}
-	
-	
-	
+
+
+
 	#singlePost {
 		margin: 0;
 		width: 100%;
 	}
-	
+
 	#imageList {
 		padding: 270px 0 0 0;
 		text-align: center;
 	}
-	
+
 	#imageList img {
 		width: 90%;
 		text-align: center;
 		height: auto;
 		padding: 0 0 10px 0;
-	}	
+	}
 	#projectContent {
 		width: 100%;
 		position: absolute;
@@ -1163,13 +1172,13 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 0;
 		line-height: 18px!important;
 	}
-	
+
 	#projectSummary {
 		width: 90%;
 		padding: 0;
 		margin: 109px auto 20px auto;
 	}
-	
+
 	#projectSummary h2 {
 		font-size: 15px;
 		text-transform: uppercase;
@@ -1177,28 +1186,28 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		border-bottom: 3px solid #ff5759;
 	}
-	
+
 	#projectSummary p {
 		font-size: 10px;
 		padding: 0;
 		width: 100%!important
 	}
-	
+
 	#projectInfo {
 		display: none;
 
 	}
-	
+
 	video {
 		display: block;
 	}
-	
+
 	.simple-video-wrapper {
 		position: relative;
 		width: 840px;
 		margin: 0 0 10px 0;
 	}
-	
+
 	.simple-video-overlay {
 		background: rgba(140,140,140,0.9);
 		cursor: pointer;
@@ -1210,7 +1219,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		top: 0;
 		z-index: 2;
 	}
-	
+
 	.simple-video-overlay span {
 		display: block;
 		position: relative;
@@ -1221,27 +1230,27 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		color: #fff;
 		font-size: 15px;
 	}
-	
+
 	p a {
 		text-decoration: none;
 		color: #000;
-		border-bottom: 1px dotted #ff5759; 
+		border-bottom: 1px dotted #ff5759;
 	}
-	
+
 	p a:hover {
-		border-bottom: 1px dotted #4848d8; 
+		border-bottom: 1px dotted #4848d8;
 	}
-	
+
 	#page {
 		width: 100%;
 	}
-	
+
 	#pageContent {
 		width: 90%;
 		margin: 99px auto 0 auto;
 		z-index: 50000;
 	}
-		
+
 	#page h2 {
 		font-size: 15px;
 		text-transform: uppercase;
@@ -1249,36 +1258,36 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		border-bottom: 3px solid #ff5759;
 	}
-	
+
 	#page p {
 		font-size: 10px;
 		padding: 0 0 18px 0;
 		line-height: 18px;
 	}
-	
+
 	.gray {
 		color: #999;
 	}
-	
+
 	.firstCol {
 		padding: 10px 0 0 0!important;
 		background: #fff;
 		width: 90%;
 		margin: 0 auto;
 }
-	
+
 	.secondCol {
 		padding: 16px 0 0 0!important;
 		z-index: 1000;
-		background: #fff;		
+		background: #fff;
 		width: 90%;
 		margin: 0 auto;
 	}
-	
+
 	.thirdCol {
 		padding: 16px 0 0 0!important;
 		z-index: 1000;
-		background: #fff;		
+		background: #fff;
 		width: 224px;
 	}
 
@@ -1287,7 +1296,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		z-index: 1000;
 		background: #fff;
 	}
-	
+
 	.resumeDiv a.download {
 		background: #ff5759;
 		color: #fff;
@@ -1295,7 +1304,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 2px 4px 0 4px;
 		border-bottom: 0;
 	}
-	
+
 	.resumeDiv a.download:hover {
 		background: #4848d8;
 		color: #fff;
@@ -1303,75 +1312,75 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 2px 4px 0 4px;
 		border-bottom: 0;
 	}
-	
+
 	.resumeDiv p {
 		font-size: 10px;
 		padding: 0 0 18px 0;
 		line-height: 18px;
 	}
-	
+
 	.absoluteDiv {
 		position: absolute!important;
 		display: block!important;
 		z-index: 50000!important;
 	}
-	
+
 	.instagramPost  {
 		display: none!important;
 		width: 224px;
 		height: 156px;
 		text-align: center;
-		vertical-align: middle;	
+		vertical-align: middle;
 	}
-	
+
 	.instagramPost img {
 		width: 156px;
 		height: 156px;
 	}
 
-	.your-name input,.your-email input { 
-		font-family: 'TipografiaRamis - CentimaMono'; 
-		width: 99%;	
-		font-size: 11px;	
-		height: 23px;	
-		border: 0; 
-		border-bottom:3px solid #4848d8; 
-		line-height: 24px;	
-		color: #373d46; 
-		background: #f9f9f9 ; 
-		outline: none; 
+	.your-name input,.your-email input {
+		font-family: 'TipografiaRamis - CentimaMono';
+		width: 99%;
+		font-size: 11px;
+		height: 23px;
+		border: 0;
+		border-bottom:3px solid #4848d8;
+		line-height: 24px;
+		color: #373d46;
+		background: #f9f9f9 ;
+		outline: none;
 		padding: 4px
 	}
-	
-	.your-message textarea { 
-		font-family: 'TipografiaRamis - CentimaMono'; 
-		width: 99%;	
-		font-size: 11px;	
-		height: 100px;	
-		padding: 3px; 
-		border: 0; 
-		border-bottom:3px solid #4848d8; 
+
+	.your-message textarea {
+		font-family: 'TipografiaRamis - CentimaMono';
+		width: 99%;
+		font-size: 11px;
+		height: 100px;
+		padding: 3px;
+		border: 0;
+		border-bottom:3px solid #4848d8;
 		line-height:18px;
-		color: #373d46; 
-		background: #f9f9f9; 
-		outline: none; 
-	}
-	
-	input.wpcf7-submit { 
-		font-family: 'TipografiaRamis - CentimaMono'; 
-		width: 92px; 
-		margin: 4px 0 0 0; 
-		padding: 4px 4px 8px 4px!important;	
-		font-size: 11px;	
-		height: 30px;	
-		border: 0; 
-		border-bottom:1px solid #ff5759; 
-		line-height: 27px;	
-		color: #fff; 
-		background: #ff5759; 
+		color: #373d46;
+		background: #f9f9f9;
 		outline: none;
 	}
-	
+
+	input.wpcf7-submit {
+		font-family: 'TipografiaRamis - CentimaMono';
+		width: 92px;
+		margin: 4px 0 0 0;
+		padding: 4px 4px 8px 4px!important;
+		font-size: 11px;
+		height: 30px;
+		border: 0;
+		border-bottom:1px solid #ff5759;
+		line-height: 27px;
+		color: #fff;
+		background: #ff5759;
+		outline: none;
+	}
+
 	footer {
 		font-size: 10px;
 		color: #ddd;
@@ -1385,7 +1394,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		z-index: 500000;
 		line-height: 18px;
 	}
-	
+
 	#archiveWork .projectList {
 		width: 244px;
 		margin: 0 0 0 0;
@@ -1393,13 +1402,13 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		float: left;
 		overflow: auto;
 	}
-	
+
 	.projectContainer {
 		padding: 37px 0 0 0;
 		overflow: auto;
 		width: 50%;
 	}
-	
+
 	.listContainer {
 		width: 194px;
 		padding: 0;
@@ -1410,7 +1419,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border: 5px solid #fff;
 		background: #fff;
 	}
-	
+
 	.listContainer h2 {
 		font-size: 14px;
 		text-transform: uppercase;
@@ -1418,27 +1427,27 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		border-bottom: 3px solid #ff5759;
 	}
-	
+
 	.listContainer ul {
 		padding: 0 0 18px 0;
 		font-size: 10px;
 		line-height: 18px;
 	}
-	
+
 	.listContainer ul a {
 		text-decoration: none;
 		color: #000;
 		padding: 0 0 0 5px;
 	}
-	
+
 	.listContainer ul a:hover {
 		color: #ff5759!important;
 	}
-	
+
 	span.redact {
 		letter-spacing: -1px;
 	}
-	
+
 	#menu-featured-nav li.current-menu-item a {
 		text-decoration: none;
 		color: #4848d8;

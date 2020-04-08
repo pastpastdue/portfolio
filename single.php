@@ -13,17 +13,17 @@
 <?php get_sidebar(); ?>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 		<ul class="projectList fixedDiv">
-			<?php 
-			$input = array( 'parts/shared/name.php', 
+			<?php
+			$input = array( 'parts/shared/name.php',
 				// 'parts/shared/foursquare.php',
 				'parts/shared/lastfm.php',
 				//'parts/shared/search.php',
-				//'parts/shared/foursquare.php', 
+				//'parts/shared/foursquare.php',
 				'parts/shared/lastfm.php',
 				//'parts/shared/foursquare.php',
 				'parts/shared/lastfm.php' );
 				  $rand_keys = array_rand($input, 2);
-				  
+
 			?>
 			<?php include($input[$rand_keys[0]]); ?>
 		</ul>
@@ -41,7 +41,7 @@
 	   'post_status' => null,
 	   'post_parent' => $post->ID
 	 );
-	 
+
 	 $video = array(
 	   'post_type' => 'attachment',
 	   'orderby' => 'menu_order',
@@ -51,7 +51,7 @@
 	   'post_status' => null,
 	   'post_parent' => $post->ID
 	 );
-	 
+
 	 $video2 = array(
 	   'post_type' => 'attachment',
 	   'orderby' => 'menu_order',
@@ -61,11 +61,11 @@
 	   'post_status' => null,
 	   'post_parent' => $post->ID
 	 );
-			
+
 	$videos = get_posts( $video );
 	$images = get_posts( $image );
 	$videos2 = get_posts( $video2 );
-	
+
 	if ( $videos ) { ?>
 			<li class="video-container">
 				<video class="video" preload="auto" width="840" height="473">
@@ -85,7 +85,7 @@
 			echo '</li>';
 		}
 	}
-	
+
 	?>
 	</ul>
 	<?php if (in_category('redact')) { ?>
@@ -110,23 +110,23 @@
 				<p>███████████ ███████████ ███████████</p>
 			</div>
 		</div>
-	</div>		
+	</div>
 	<?php } else { ?>
 	<div id="projectContent">
 		<div id="projectSummary">
 			<h2><?php the_title(); ?></h2>
-			<?php the_content(); ?>	
+			<?php the_content(); ?>
 		</div>
 		<div id="projectInfo">
 			<div class="processLinkBox">
 				<p><?php if (get_field('process_link') != "") { ?><a href="<?php the_field('process_link'); ?>" title="process">view process</a><?php } else { ?>&nbsp;<?php } ?></p>
 			</div>
 			<div class="infoBox">
-				<h4>information</h4>
+				<h4>Information</h4>
 				<p><?php the_field('project_information'); ?></p>
 			</div>
 			<div class="infoBox">
-				<h4>tags</h4>
+				<h4>Tags</h4>
 				<p><?php the_tags('', ', ', ''); ?></p>
 			</div>
 		</div>
