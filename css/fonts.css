@@ -1,0 +1,23 @@
+
+@font-face {
+  font-family: 'TipografiaRamis - CentimaMono';
+  src: url('fonts/TipografiaRamis%20-%20CentimaMono.eot'); /* IE9 Compat Modes */
+  src: url('fonts/TipografiaRamis%20-%20CentimaMono.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/TipografiaRamis%20-%20CentimaMono.woff') format('woff'), /* Modern Browsers */
+       url('fonts/TipografiaRamis%20-%20CentimaMono.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/TipografiaRamis%20-%20CentimaMono.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'TipografiaRamis - CentimaMono';
+  src: url('fonts/TipografiaRamis%20-%20CentimaMono-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/TipografiaRamis%20-%20CentimaMono-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/TipografiaRamis%20-%20CentimaMono-Bold.woff') format('woff'), /* Modern Browsers */
+       url('fonts/TipografiaRamis%20-%20CentimaMono-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/TipografiaRamis%20-%20CentimaMono-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
