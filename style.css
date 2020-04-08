@@ -62,7 +62,7 @@ a:link {
 16 / 16	= 		1em 			(16px equivalent)
 18 / 16 = 		1.125em 		(18px equivalent)
 21 / 16 = 		1.3125em 		(21px equivalent)
-24 / 16 = 		1.5em 			(24px equivalent)
+24 / 16 = 		1.2em 			(24px equivalent)
 30 / 16 = 		1.875em 		(30px equivalent)
 
 */
@@ -172,6 +172,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#menu-featured-nav a:hover {
 		color: #ff5759!important;
+		transition: color .2s;
 	}
 
 	#menu-featured-nav li.current-menu-item a {
@@ -184,8 +185,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#menu-featured-nav li.current-menu-item a:hover {
 		text-decoration: none;
 		color: #ff5759!important;
-		font-weight: bold;
-		padding: 0 0 0 5px;
+		transition: color .2s;
 	}
 
 	#menu-utility-nav {
@@ -202,6 +202,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#menu-utility-nav a:hover {
 		color: #ff5759!important;
+		transition: color .2s;
 	}
 
 	#menu-utility-nav li.current-menu-item a {
@@ -249,6 +250,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		font-weight: bold;
 		text-align: justify;
 		height: 18px;
+		background: #fff;
 	}
 
 	.fixedDiv {
@@ -430,12 +432,12 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	 .projectPost a .projectDetails {
 		position: absolute;
-		display: none;
+		opacity: 0;
 	}
 
 	 .projectPost:hover a .projectDetails {
-		display: block;
-
+		opacity: 1;
+		transition: opacity .2s;
 	}
 
 
@@ -570,6 +572,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	p a:hover {
 		border-bottom: 1px dotted #4848d8;
+		transition: border-color .2s;
 	}
 
 	#page {
@@ -649,6 +652,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		padding: 2px 4px 0 4px;
 		border-bottom: 0;
+		transition: background-color .2s;
 	}
 
 	.resumeDiv p {
@@ -782,6 +786,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	.listContainer ul a:hover {
 		color: #ff5759!important;
+		transition: color .2s;
 	}
 
 	span.redact {
@@ -880,6 +885,8 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#menu-featured-nav a:hover {
 		color: #ff5759!important;
+		transition: color .2s;
+
 	}
 
 	#menu-featured-nav li.current-menu-item a {
@@ -912,6 +919,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#menu-utility-nav a:hover {
 		color: #ff5759!important;
+		transition: color .2s;
 	}
 
 	#menu-utility-nav li.current-menu-item a {
