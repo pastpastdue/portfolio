@@ -35,7 +35,7 @@
 	 $image = array(
 	   'post_type' => 'attachment',
 	   'orderby' => 'menu_order',
-	   'order' => 'ASC',
+	   'order' => 'DESC',
 	   'numberposts' => -1,
 	   'post_mime_type' => 'image',
 	   'post_status' => null,
