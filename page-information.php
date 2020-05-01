@@ -18,6 +18,19 @@ Template Name: information
 				'parts/shared/lastfm.php' );
 				  $rand_keys = array_rand($input, 2);
 
+					$image = array(
+						'post_type' => 'attachment',
+						'orderby' => 'menu_order',
+						'order' => 'DESC',
+						'numberposts' => -1,
+						'post_mime_type' => 'image',
+						'post_status' => null,
+						'post_parent' => $post->ID
+					);
+
+					$images = get_posts( $image );
+
+
 			?>
 			<?php include($input[$rand_keys[0]]); ?>
 			<?php foreach ( $images as $attachment ) {
