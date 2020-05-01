@@ -288,6 +288,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		overflow: hidden;
 	}
 
+	.dataPost p.summary {
+	 height: 70px;
+	 overflow: hidden;
+ }
+
 	 .dataPost {
 		border-color: #ff575a!important;
 	}
@@ -1011,7 +1016,6 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	 .namePost p.summary {
 		height: 70px;
-
 	}
 
 	 .dataPost {
@@ -1085,6 +1089,13 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		height: 18px;
 		overflow: hidden;
 	}
+
+	.dataPost p {
+	 font-size: 10px;
+	 color: #000;
+	 display: none;
+ }
+
 
 	.sa_mc {
 		display: none;
