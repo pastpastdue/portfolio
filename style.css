@@ -34,8 +34,8 @@ nav,
 li					{ position:relative; /* For absolutely positioning elements within containers (add more to the list if need be) */ }
 .group:after 		{ display:block; height:0; clear:both; content:"."; visibility:hidden; /* For clearing */ }
 body 				{ background:#fff; /* Don't forget to style your body to avoid user overrides */ }
-::-moz-selection 	{ background:#ff0; color:#333; }
-::selection 		{ background:#ff0; color:#333; }
+::-moz-selection 	{ background:#ff5759; color:#333; }
+::selection 		{ background:#ff5759; color:#333; }
 
 html,
 body {
