@@ -28,7 +28,8 @@
 	add_theme_support('post-thumbnails');
 
 	set_post_thumbnail_size( 194, 126 );
-	add_image_size( 'displayimage', 840, 999999 ); //300 pixels wide (and unlimited height)
+	add_image_size( 'displayimage', 840, 999999 ); //840 pixels wide (and unlimited height)
+	add_image_size( 'infoimage', 194, 126 ); 
 
 	add_filter( 'post_displayimage_thumbnail_html', 'remove_width_attribute', 10 );
 	add_filter( 'image_send_to_editor', 'remove_width_attribute', 10 );
