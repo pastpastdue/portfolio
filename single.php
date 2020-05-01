@@ -76,49 +76,6 @@
 
 	?>
 	</ul>
-	<?php if (in_category('redact')) { ?>
-	<div id="projectContent" class="redact">
-		<div id="projectSummary">
-			<h2>Project Currently Under NDA</h2>
-			<p>███████████████████████████████████████████████████████████████████████████
-			███████████████████████████████████████████████████████████████████████████
-			███████████████████████████████████████████████████████████████████████████
-			███████████████████████████████████████████████████████████████████████████</p>
-		</div>
-		<div id="projectInfo">
-			<div class="processLinkBox">
-				<p><?php if (get_field('process_link') != "") { ?><a href="<?php the_field('process_link'); ?>" title="process">view process</a><?php } else { ?>&nbsp;<?php } ?></p>
-			</div>
-			<div class="infoBox">
-				<h4>███████████</h4>
-				<p>███████████ ███████████ ███████████</p>
-			</div>
-			<div class="infoBox">
-				<h4>███████████</h4>
-				<p>███████████ ███████████ ███████████</p>
-			</div>
-		</div>
-	</div>
-	<?php } else { ?>
-	<div id="projectContent">
-		<div id="projectSummary">
-			<h2><?php the_title(); ?></h2>
-			<?php the_content(); ?>
-		</div>
-		<div id="projectInfo">
-			<div class="processLinkBox">
-				<p><?php if (get_field('process_link') != "") { ?><a href="<?php the_field('process_link'); ?>" title="process">view process</a><?php } else { ?>&nbsp;<?php } ?></p>
-			</div>
-			<div class="infoBox">
-				<h4>Information</h4>
-				<p><?php the_field('project_information'); ?></p>
-			</div>
-			<div class="infoBox">
-				<h4>Tags</h4>
-				<p><?php the_tags('', ', ', ''); ?></p>
-			</div>
-		</div>
-	</div>		<?php } ?>
 
 </article>
 <?php endwhile; ?>

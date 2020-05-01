@@ -9,7 +9,7 @@
 (function ($){
   $.fn.instagram = function (options) {
     var that = this,
-        apiEndpoint = "https://api.instagram.com/v1",
+        apiEndpoint = "https://api.instagram.com/v2",
         settings = {
             hash: null
           , userId: null
@@ -26,12 +26,12 @@
           , image_size: null
           , photoLink: true
         };
-        
+
     options && $.extend(settings, options);
-    
+
     function createPhotoElement(photo) {
       var image_url = photo.images.thumbnail.url;
-      
+
       if (settings.image_size == 'low_resolution') {
         image_url = photo.images.low_resolution.url;
       }
@@ -59,19 +59,19 @@
         .attr('id', photo.id)
         .append(innerHtml);
     }
-    
+
     function createEmptyElement() {
       return $('<div>')
         .addClass('instagram-placeholder')
         .attr('id', 'empty')
         .append($('<p>').html(''));
     }
-    
+
     function composeRequestURL() {
 
       var url = apiEndpoint,
           params = {};
-      
+
       if (settings.next_url != null) {
         return settings.next_url;
       }
@@ -96,7 +96,7 @@
       else {
         url += "/media/popular";
       }
-      
+
       settings.accessToken != null && (params.access_token = settings.accessToken);
       settings.clientId != null && (params.client_id = settings.clientId);
       settings.minId != null && (params.min_id = settings.minId);
@@ -104,12 +104,12 @@
       settings.show != null && (params.count = settings.show);
 
       url += "?" + $.param(params)
-      
+
       return url;
     }
-    
+
     settings.onLoad != null && typeof settings.onLoad == 'function' && settings.onLoad();
-    
+
     $.ajax({
       type: "GET",
       dataType: "jsonp",
@@ -118,7 +118,7 @@
       success: function (res) {
         var length = typeof res.data != 'undefined' ? res.data.length : 0;
         var limit = settings.show != null && settings.show < length ? settings.show : length;
-        
+
         if (limit > 0) {
           for (var i = 0; i < limit; i++) {
             that.append(createPhotoElement(res.data[i]));
@@ -131,14 +131,14 @@
         settings.onComplete != null && typeof settings.onComplete == 'function' && settings.onComplete(res.data, res);
       }
     });
-    
+
     return this;
   };
 })(jQuery);
 
 $(document).ready(function() {
 	$(".instagramFeed").instagram({
- 	userId: '2566652', 
+ 	userId: '2566652',
 	show: '14',
 	image_size: 'low_resolution',
     accessToken: '2566652.6a185db.a50bd7c737f4476c9f4f85f77397bc73'
