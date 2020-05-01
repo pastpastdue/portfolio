@@ -30,8 +30,8 @@
 		<section id="allWork">
 				<ul class="projectList home">
 					<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/name' ) ); ?>
-					<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/confidential' ) ); ?>
 					<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/lastfm' ) ); ?>
+					<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/confidential' ) ); ?>
 					<?php // Starkers_Utilities::get_template_parts( array( 'parts/shared/search' ) ); ?>
 <?php while ($featured->have_posts()) : $featured->the_post(); ?>
 					<li class="projectPost">
