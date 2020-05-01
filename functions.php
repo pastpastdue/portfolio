@@ -80,9 +80,11 @@
 
 	======================================================================================================================== */
 
-	function my_custom_login_stylesheet() {
+	function login_styling() {
 	    wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/style-login.css' );
 	}
+
+	add_action( 'login_enqueue_scripts', 'login_styling' );
 
 	/* ========================================================================================================================
 

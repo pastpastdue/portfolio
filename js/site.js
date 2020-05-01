@@ -4,23 +4,23 @@
 	jQuery(document).ready(function($) {
 
 		jQuery('#siteContainer').height( jQuery(window).height() - 16 );
-	
+
 		$(window).resize(function($) {
 			jQuery('#siteContainer').height( jQuery(window).height() - 16 );
-					
+
 	});
-	
+
 		$('.projectList li.projectPost').eq(11).before($('li.dataPost').eq(2));
 		$('.projectList li.projectPost').eq(1).before($('li.dataPost').eq(1));
 		$('.projectList li.projectPost').eq(6).before($('li.dataPost').eq(0));
-	
+
 		$("#siteContainer").scroll(function() {
 		    if ($(this).scrollTop() < 1) {
 		        $('.fixedDiv').show();
 		    } else {
 		        $('.fixedDiv').hide();
 		    }
-		});	
+		});
 
 
 /*
@@ -28,8 +28,8 @@
 	$lis.eq(Math.floor(Math.random()*$lis.length)).after().append('<li class="post">post</li>');
 */
 
-	
-	
+
+
 
 	});
 
