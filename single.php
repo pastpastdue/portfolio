@@ -70,7 +70,7 @@
 		foreach ( $images as $attachment ) {
 			echo '<li>';
 			echo wp_get_attachment_image( $attachment->ID, 'displayimage' );
-			echo '<div>'.wp_get_attachment_caption( $attachment->ID, 'displayimage').'</div>';
+			echo '<div class="imageDescription">'.wp_get_attachment_caption( $attachment->ID, 'displayimage').'</div>';
 			echo '</li>';
 		}
 	}
