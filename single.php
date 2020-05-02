@@ -27,7 +27,7 @@
 	   'numberposts' => -1,
 	   'post_mime_type' => 'image',
 	   'post_status' => null,
-	   'post_parent' => $post->ID
+	   'post_parent' => $post->ID,
 	 );
 
 	 $video = array(
@@ -70,6 +70,7 @@
 		foreach ( $images as $attachment ) {
 			echo '<li>';
 			echo wp_get_attachment_image( $attachment->ID, 'displayimage' );
+			echo '<div>'.wp_get_attachment_caption( $attachment->ID, 'displayimage').'</div>';
 			echo '</li>';
 		}
 	}
