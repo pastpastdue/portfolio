@@ -475,11 +475,18 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#imageList li .imageDescription {
 		position: absolute;
-		bottom: 0;
-		background: rgba(255,255,255,.2);
-		padding: 10px;
+    bottom: 10px;
+    padding: 10px;
+    background: rgba(255,255,255,.5);
+    width: 100%;
+    display: none;
+		font-size: 10px;
 	}
-	
+
+	#imageList li:hover .imageDescription {
+		display: block;
+	}
+
 	#projectContent {
 		width: 840px;
 		position: fixed;
