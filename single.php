@@ -67,10 +67,18 @@
 			</li>
 	<?php }
 	if ( $images ) {
+
+		$attachmentCaption = wp_get_attachment_caption( $attachment->ID, 'displayimage');
+
 		foreach ( $images as $attachment ) {
+
+			$attachmentCaption = wp_get_attachment_caption( $attachment->ID, 'displayimage');
+
 			echo '<li>';
 			echo wp_get_attachment_image( $attachment->ID, 'displayimage' );
-			echo '<div class="imageDescription">'.wp_get_attachment_caption( $attachment->ID, 'displayimage').'</div>';
+			if ( $attachmentCaption ) {
+				echo '<div class="imageDescription">'. $attachmentCaption .'</div>';
+			}
 			echo '</li>';
 		}
 	}
