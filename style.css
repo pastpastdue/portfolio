@@ -474,19 +474,10 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	}
 
 	#imageList li .imageDescription {
-		position: absolute;
-    bottom: 10px;
+		position: relative;
     padding: 10px;
-    background: rgba(255,255,255,.5);
     width: 100%;
-    opacity: 0;
 		font-size: 10px;
-		transition: opacity .2s;
-	}
-
-	#imageList li:hover .imageDescription {
-		opacity: 1;
-		transition: opacity .2s;
 	}
 
 	#projectContent {
@@ -1213,14 +1204,9 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	}
 
 	#imageList li .imageDescription {
-		position: absolute;
-    bottom: 10px;
+		position: relative;
     padding: 10px;
-    background: rgba(255,255,255,.5);
-    width: 90%;
-    opacity: 1;
 		font-size: 10px;
-		transition: opacity .2s;
 		text-align: left;
 	}
 
