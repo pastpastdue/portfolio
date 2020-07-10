@@ -37,6 +37,10 @@ body 				{ background:#fff; /* Don't forget to style your body to avoid user ove
 ::-moz-selection 	{ background:#ff0; color:#333; }
 ::selection 		{ background:#ff0; color:#333; }
 
+-WebKit-scrollbar {
+	display: none;
+}
+
 html,
 body {
 	height: 100%;
