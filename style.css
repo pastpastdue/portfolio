@@ -93,7 +93,6 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#siteContainer {
 		border: 8px solid #4848d8;
 		overflow-x: hidden;
-		overflow-y: scroll;
 		z-index: 50000;
 	}
 
