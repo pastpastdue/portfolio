@@ -114,7 +114,7 @@ body {
 }
 
 	#login {
-		overflow: hidden;
+		overflow-x: hidden;
 		z-index: 50000;
 		margin: 0 auto;
 		padding: 0;
