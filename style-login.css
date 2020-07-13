@@ -37,9 +37,6 @@ body 				{ background:#fff; /* Don't forget to style your body to avoid user ove
 ::-moz-selection 	{ background:#ff0; color:#333; }
 ::selection 		{ background:#ff0; color:#333; }
 
--WebKit-scrollbar {
-	display: none;
-}
 
 html,
 body {
@@ -117,8 +114,7 @@ body {
 }
 
 	#login {
-		overflow-x: hidden;
-		overflow-y: scroll;
+		overflow: hidden;
 		z-index: 50000;
 		margin: 0 auto;
 		padding: 0;
