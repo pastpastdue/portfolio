@@ -45,11 +45,13 @@
 					<li>Amazon</li>
 					<li>Facebook</li>
 					<li>Eli Lilly</li>
+					<li>SCHARP</li>
 					<li>Arizona State University</li>
 					<li>The Mastercard Foundation</li>
 					<li>Bloomberg Philanthropies</li>
 					<li>The Ballmer Group</li>
 					<li>USAFacts</li>
+					<li>Tangerine Bank</li>
 					<li>Dreambox Learning</li>
 					<li>Samsung</li>
 					<li>Thales</li>
