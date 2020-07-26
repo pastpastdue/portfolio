@@ -38,9 +38,6 @@
 		</section>
 
 		<section id="editorialLayout">
-			<h1 class="pageTitle">
-				About Me
-			</h1>
 			<div>
 				<h3>Select Clients</h3>
 				<ul class="editorialList">
@@ -49,6 +46,7 @@
 					<li>Facebook</li>
 					<li>Eli Lilly</li>
 					<li>Arizona State University</li>
+					<li>The Mastercard Foundation</li>
 					<li>Bloomberg Philanthropies</li>
 					<li>The Ballmer Group</li>
 					<li>USAFacts</li>
@@ -65,12 +63,16 @@
 				 <li>Human-centered design</li>
 				 <li>UX design</li>
 				 <li>Visual design</li>
-				 <li>Accessibility design</li>
+				 <li>Design systems</li>
+				 <li>Data visualization</li>
+				 <li>Complex problem-solving</li>
+				 <li>Inclusive + accessibility design</li>
 				 <li>Design strategy + envisioning</li>
 				 <li>HTML, JavaScript, React, PHP</li>
 				 <li>Business strategy</li>
+				 <li>Systems + service design</li>
 				 <li>User research</li>
-				 <li>Provide mentorship</li>
+				 <li>Mentoring</li>
 			 </ul>
 
 		 </div>
@@ -81,15 +83,17 @@
 			<p>My work spans many contexts and applications. Some of it's on airplanes, some is in classrooms, some is on feature phones in Africa. Some envisioned the future of code management. My most recent work includes a data platform that's in the hands of lawmakers on Capitol Hill and data wonks across the US, and another that enabled a major medical company to help people with diabetes learn more about their condition.
 
 		 </div> -->
+
 	 	</section>
 
 		<section id="allWork">
 				<h1 class="pageTitle">
 				 Featured Work
 				</h1>
+				<h2 class="workDescription">I use human centered design to turn complex problems into easy-to-use shippable solutions. If you'd like to learn more about my work and the process that I follow, <a href="mailto:me@ericcroskey.com?Subject=Your%20Portfolio" title="Email me">please reach out</a>.</h2>
 				<ul class="projectList home">
 					<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/lastfm' ) ); ?>
-					<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/confidential' ) ); ?>
+					<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/contact' ) ); ?>
 <?php while ($featured->have_posts()) : $featured->the_post(); ?>
 					<li class="projectPost">
 						<a href="<?php the_permalink(); ?>" title="<?php if (in_category('redact')) {?>█████████████<?php } else { ?><?php the_title(); } ?>">

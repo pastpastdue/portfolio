@@ -128,7 +128,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#editorialLayout {
 		display: block;
-		padding: 60px 257px 60px 35px;
+		padding: 60px 257px 120px 35px;
 		overflow: auto;
 	}
 
@@ -302,6 +302,21 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 			margin-left: 35px;
 			text-transform: uppercase;
 		}
+
+	#allWork .workDescription {
+			font-size: 18px;
+			line-height: 27px;
+			font-weight: 400;
+			padding-top: 20px;
+			padding-left: 35px;
+			max-width: 50%;
+		}
+
+	#allWork .workDescription a {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 1px dotted #ff5759;
+	}
 
 	.projectList {
 		overflow: hidden;
@@ -1004,6 +1019,10 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	.pageTitle {
 		display: none;
 	}
+
+	#allWork .workDescription {
+			display: none;
+		}
 
 	#globalNav {
 		display: block;
