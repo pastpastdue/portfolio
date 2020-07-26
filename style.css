@@ -277,7 +277,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#menu-utility-nav a {
 		text-decoration: none;
-		color: #999;
+		color: #767676;
 		padding: 0 0 0 5px;
 	}
 
@@ -612,7 +612,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		margin: 0 0 30px 0;
 	}
 
-	#projectSummary h2 {
+	#projectSummary h1 {
 		font-size: 14px;
 		text-transform: uppercase;
 		margin: 0 0 15px 0;
@@ -737,7 +737,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	}
 
 	.gray {
-		color: #999;
+		color: #767676;
 	}
 
 	.firstCol {
@@ -863,7 +863,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	footer {
 		font-size: 10px;
-		color: #ddd;
+		color: #767676;
 		display: block;
 		position: fixed;
 		left: 43px;
@@ -980,7 +980,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		margin-top: 330px;
 		overflow: auto;
 		opacity: .5;
-		border-top: 1px solid #666;
+		border-top: 1px solid #767676;
 	}
 
 	#editorialLayout .pageTitle {
@@ -1127,7 +1127,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#menu-utility-nav a {
 		text-decoration: none;
-		color: #999;
+		color: #767676;
 		padding: 0;
 	}
 
@@ -1283,7 +1283,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	 .dataPost ul li h6  {
 		font-weight: 400!important;
-		color: #999!important;
+		color: ##767676!important;
 		height: 18px;
 		overflow: hidden;
 	}
@@ -1429,7 +1429,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#projectSummary p {
 		font-size: 10px;
 		padding: 0;
-		width: 100%!important
+		width: 100%!important;
 	}
 
 	#projectInfo {
@@ -1504,7 +1504,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	}
 
 	.gray {
-		color: #999;
+		color: #767676;
 	}
 
 	.orange {

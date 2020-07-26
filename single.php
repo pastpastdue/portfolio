@@ -22,9 +22,14 @@
 <div id="projectContent">
 
 		<div id="projectSummary">
-			<h2><?php the_title(); ?></h2>
+			<h1><?php the_title(); ?></h1>
 			<?php the_content(); ?>
 		</div>
+		<?php if (get_field('project_byline') != "") { ?>
+		<div id="projectByline">
+				<h2><?php the_field('project_byline'); ?></h2>
+		</div>
+		<?php } else {  } ?>
 		<div id="projectInfo">
 			<div class="processLinkBox">
 				<p><?php if (get_field('process_link') != "") { ?><a href="<?php the_field('process_link'); ?>" title="process">view process</a><?php } else { ?>&nbsp;<?php } ?></p>
