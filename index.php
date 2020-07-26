@@ -75,12 +75,12 @@
 
 		 </div>
 
-		 <div>
+		 <!-- <div>
 
 			<h3>Background</h3>
 			<p>My work spans many contexts and applications. Some of it's on airplanes, some is in classrooms, some is on feature phones in Africa. Some envisioned the future of code management. My most recent work includes a data platform that's in the hands of lawmakers on Capitol Hill and data wonks across the US, and another that enabled a major medical company to help people with diabetes learn more about their condition.
 
-		 </div>
+		 </div> -->
 	 	</section>
 
 		<section id="allWork">
