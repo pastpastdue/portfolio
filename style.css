@@ -599,6 +599,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		background: #fff;
 		padding: 24px 0 5px 41px;
 		overflow: hidden;
+		z-index: 9999;
 		line-height: 18px!important;
 	}
 
@@ -1403,7 +1404,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 
 	#projectContent {
-		width: 100%;
+		width: inherit;
 		position: absolute;
 		top: 0;
 		background: #fff;
