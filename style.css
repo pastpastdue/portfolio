@@ -1161,9 +1161,8 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	}
 
 	 .post {
-		width: 80%;
 		overflow: hidden;
-		margin: 20px auto;
+		margin: 20px;
 		padding: 10px;
 		line-height: 18px;
 		border: 5px solid #fff;
@@ -1390,7 +1389,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	}
 
 	#imageList {
-		padding: 270px 0 0 0;
+		padding: 40px 0 0 0;
 		text-align: center;
 	}
 
@@ -1420,7 +1419,6 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#projectContent {
 		width: inherit;
-		position: absolute;
 		top: 0;
 		background: #fff;
 		padding: 0;
