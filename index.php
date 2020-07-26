@@ -50,7 +50,7 @@
 					<li>Arizona State University</li>
 					<li>The Mastercard Foundation</li>
 					<li>Bloomberg Philanthropies</li>
-					<li>The Ballmer Group</li>
+					<li>Ballmer Group</li>
 					<li>USAFacts</li>
 					<li>Tangerine Bank</li>
 					<li>Dreambox Learning</li>
