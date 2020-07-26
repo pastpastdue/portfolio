@@ -611,6 +611,10 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
     border-bottom: 4px solid #4848d8;
 	}
 
+	#projectByline h2 {
+		width: 90%;
+	}
+
 	#projectSummary {
 		width: 520px;
 		float: left;
