@@ -32,7 +32,7 @@
 				<h1 class="pageTitle">
 				 Hi, I'm Eric.
 				</h1>
-				<h2>I'm a systems-minded, inclusive product design lead with a penchant for design and business strategy.</h2>
+				<h2>I'm a systems-minded, inclusive product design lead with a penchant for business and design strategy.</h2>
 	 		</div>
 
 		</section>
