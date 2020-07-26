@@ -1,5 +1,5 @@
 
-
+// SITE HEIGHT
 
 	jQuery(document).ready(function($) {
 
@@ -7,12 +7,22 @@
 
 		$(window).resize(function($) {
 			jQuery('#siteContainer').height( jQuery(window).height() - 16 );
+		});
 
-	});
+		jQuery('#introduction').height( jQuery(window).height() - 16 );
+
+		$(window).resize(function($) {
+			jQuery('#introduction').height( jQuery(window).height() - 16 );
+		});
+
+
+// HOMEPAGE LIST
 
 		$('.projectList li.projectPost').eq(11).before($('li.dataPost').eq(2));
 		$('.projectList li.projectPost').eq(1).before($('li.dataPost').eq(1));
 		$('.projectList li.projectPost').eq(6).before($('li.dataPost').eq(0));
+
+// FIXED BOX
 
 		$("#siteContainer").scroll(function() {
 		    if ($(this).scrollTop() < 1) {
@@ -22,29 +32,31 @@
 		    }
 		});
 
-
-/*
-	var $lis = jQuery("ul.projectList");
-	$lis.eq(Math.floor(Math.random()*$lis.length)).after().append('<li class="post">post</li>');
-*/
-
-
-
-
 	});
 
+// COLOR SCAPING
 
-
-/*
-	setTimeout(colorChange,3600000);
-
-		function colorChange(){
-			var time = new Date().getUTCHours() - 8;
-			var val = -24 * Math.pow(time,2)+12;
-
-			document.getElementById('thing').style.color = val;
-
-	}
-*/
-
-/* 	new Date().getMinutes() + new Date().getHours() * 60 */
+	(function() {
+		var d = new Date();
+		var currHour = d.getHours();
+		console.log(currHour);
+		if (currHour >= 0 && currHour <= 4) {
+		   document.getElementById("siteContainer").style.borderColor = "#4848d8";
+		} else if (currHour >= 4 && currHour < 5) {
+			document.getElementById("siteContainer").style.borderColor = "#9249b9";
+		} else if (currHour >= 5 && currHour < 6) {
+			document.getElementById("siteContainer").style.borderColor = "#be4d99";
+		} else if (currHour >= 6 && currHour < 7) {
+			document.getElementById("siteContainer").style.borderColor = "#e1517a";
+		} else if (currHour >= 7 && currHour < 17 ) {
+			document.getElementById("siteContainer").style.borderColor = "#ff5759";
+		} else if (currHour >= 17 && currHour < 18 ) {
+			document.getElementById("siteContainer").style.borderColor = "#e1517a";
+		} else if (currHour >= 18 && currHour < 19 ) {
+			document.getElementById("siteContainer").style.borderColor = "#be4d99";
+		}	else if (currHour >= 19 && currHour < 20 ) {
+			document.getElementById("siteContainer").style.borderColor = "#9249b9";
+		} else if (currHour >= 20 && currHour < 24 ) {
+			document.getElementById("siteContainer").style.borderColor = "#4848d8";
+		}
+	})();

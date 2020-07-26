@@ -91,9 +91,90 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 @media screen and (min-width:480px) {
 
 	#siteContainer {
-		border: 8px solid #4848d8;
+		border-width: 8px;
+		border-style: solid;
 		overflow-x: hidden;
 		z-index: 50000;
+	}
+
+	#introduction {
+		display: block;
+		padding: 20px 257px 0 35px;
+		clear: both;
+		overflow: auto;
+	}
+
+	.statement {
+		position: absolute;
+		bottom: 60px;
+	}
+
+	.statement h1 {
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 36px;
+		display: inline-block;
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+
+	.statement h2 {
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: 400;
+		padding-top: 20px;
+		max-width: 60%;
+	}
+
+	#editorialLayout {
+		display: block;
+		padding: 60px 257px 80px 35px;
+		overflow: auto;
+	}
+
+	#editorialLayout .pageTitle {
+			font-size: 24px;
+			font-weight: bold;
+			line-height: 36px;
+			display: inline-block;
+			clear: both;
+			margin-top: 10px;
+			margin-left: 35px;
+			text-transform: uppercase;
+		}
+
+	#editorialLayout div {
+		display: block;
+		float: left;
+		width: 224px;
+		padding-right: 30px;
+	}
+
+	#editorialLayout h3 {
+		font-size: 14px;
+		text-transform: uppercase;
+		margin: 0 0 15px 0;
+		display: inline-block;
+		border-bottom: 4px solid #ff5759;
+	}
+	#editorialLayout p, ul, li {
+		font-size: 10px;
+		line-height: 18px;
+	}
+
+	#editorialLayout p {
+		padding-bottom: 18px;
+	}
+
+	#editorialLayout .firstCol {
+		top: inherit;
+		padding-top: 16px!important;
+	}
+
+
+
+	.pageTitle {
+		border-bottom: 4px solid #4848d8;
 	}
 
 	#globalNav {
@@ -110,7 +191,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	}
 
 	#nav li.currentlyViewing {
-		border-bottom: 5px solid #4848d8;
+		border-bottom: 4px solid #4848d8;
 		font-size: 12px;
 	}
 
@@ -119,7 +200,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		color: #000;
 		display: block;
 		padding: 5px 5px 7px 5px;
-
+		text-transform: uppercase;
 	}
 
 	.bold {
@@ -211,6 +292,16 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 0 0 0 5px;
 	}
 
+	#allWork .pageTitle {
+			font-size: 24px;
+			font-weight: bold;
+			line-height: 36px;
+			display: inline-block;
+			margin-top: 10px;
+			margin-left: 35px;
+			text-transform: uppercase;
+		}
+
 	.projectList {
 		overflow: hidden;
 		padding: 20px 257px 20px 20px;
@@ -272,6 +363,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	.namePost h1 {
 		padding: 2px 0 0 0;
+		font-size: 16px;
 		text-transform: uppercase;
 		color: #4848d8;
 	}
@@ -508,7 +600,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		margin: 0 0 15px 0;
 		display: inline-block;
-		border-bottom: 3px solid #ff5759;
+		border-bottom: 4px solid #ff5759;
 	}
 
 	#projectSummary p {
@@ -618,7 +710,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		margin: 0 0 15px 0;
 		display: inline-block;
-		border-bottom: 3px solid #ff5759;
+		border-bottom: 4px solid #ff5759;
 	}
 
 	#page p {
@@ -757,10 +849,10 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		color: #ddd;
 		display: block;
 		position: fixed;
-		left: 46px;
+		left: 43px;
 		bottom: 0;
 		width: 224px;
-		margin: 5px;
+		margin: 10px 0;
 		padding: 10px 0;
 		z-index: 500000;
 		line-height: 18px;
@@ -796,7 +888,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		margin: 11px 0 17px 5px;
 		display: inline-block;
-		border-bottom: 3px solid #ff5759;
+		border-bottom: 4px solid #ff5759;
 	}
 
 	.listContainer ul {
@@ -865,7 +957,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		font-weight: bold;
 		margin: 0 0 15px 0;
 		display: inline-block;
-		border-bottom: 3px solid #ff5759;
+		border-bottom: 4px solid #ff5759;
 		text-decoration: none;
 		color: #000;
 	}
@@ -1236,7 +1328,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		margin: 0 0 15px 0;
 		display: inline-block;
-		border-bottom: 3px solid #ff5759;
+		border-bottom: 4px solid #ff5759;
 	}
 
 	#projectSummary p {
@@ -1308,7 +1400,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		margin: 0 0 15px 0;
 		display: inline-block;
-		border-bottom: 3px solid #ff5759;
+		border-bottom: 4px solid #ff5759;
 	}
 
 	#page p {
@@ -1477,7 +1569,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		margin: 11px 0 17px 5px;
 		display: inline-block;
-		border-bottom: 3px solid #ff5759;
+		border-bottom: 4px solid #ff5759;
 	}
 
 	.listContainer ul {
