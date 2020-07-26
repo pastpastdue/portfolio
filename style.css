@@ -1412,7 +1412,9 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#projectByline {
 		font-size: 12px;
     line-height: 15px;
-    margin: 16px;
+		max-width: inherit;
+		width: 90%;
+    margin: 109px auto 20px auto;
     padding: 36px 0;
     border-bottom: 4px solid #4848d8;
     border-top: 4px solid #4848d8;
