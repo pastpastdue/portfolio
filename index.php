@@ -39,7 +39,7 @@
 
 		<section id="editorialLayout">
 			<h1 class="pageTitle">
-				What I Do
+				About Me
 			</h1>
 			<div>
 				<h3>Select Clients</h3>
@@ -63,6 +63,7 @@
 			 <div>
 				 <h3>What I Do</h3>
 				 <ul class="editorialList">
+					 <li>Human-centered design</li>
 					 <li>UX design</li>
 					 <li>Visual design</li>
 					 <li>Accessibility design</li>
