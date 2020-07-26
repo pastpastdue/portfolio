@@ -1420,6 +1420,10 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
     border-top: 4px solid #4848d8;
 	}
 
+	#projectByline h2 {
+		width: 80%;
+	}
+
 	#projectContent {
 		width: inherit;
 		top: 0;
