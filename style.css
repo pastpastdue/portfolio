@@ -128,7 +128,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#editorialLayout {
 		display: block;
-		padding: 60px 257px 80px 35px;
+		padding: 60px 257px 60px 35px;
 		overflow: auto;
 	}
 
@@ -148,6 +148,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		float: left;
 		width: 224px;
 		padding-right: 30px;
+		padding-bottom: 20px;
 	}
 
 	#editorialLayout h3 {
@@ -1413,7 +1414,6 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#projectInfo {
 		display: none;
-
 	}
 
 	video {
