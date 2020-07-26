@@ -46,6 +46,7 @@
 					<li>Facebook</li>
 					<li>Eli Lilly</li>
 					<li>SCHARP</li>
+					<li>Fred Hutch</li>
 					<li>Arizona State University</li>
 					<li>The Mastercard Foundation</li>
 					<li>Bloomberg Philanthropies</li>
