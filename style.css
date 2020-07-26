@@ -924,16 +924,90 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 @media screen and (max-width:480px) {
 
 	#siteContainer {
-		border: 8px solid #4848d8;
+		border-width: 8px;
+		border-style: solid;
 		overflow-x: hidden;
 		overflow-y: scroll;
 		z-index: 50000;
 	}
 
+	#introduction {
+		display: block;
+		padding: 20px;
+		clear: both;
+		overflow: auto;
+		height: auto!important;
+	}
+
+	.statement h1 {
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 36px;
+		display: inline-block;
+		margin-top: 10px;
+		text-transform: uppercase;
+		border-bottom: 4px solid #4848d8;
+	}
+
+	.statement h2 {
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: 400;
+		padding-top: 20px;
+		max-width: 100%;
+	}
+
+	#editorialLayout {
+		display: block;
+		padding: 40px 20px 0 20px;
+		margin-top: 280px;
+		overflow: auto;
+		opacity: .5;
+		border-top: 1px solid #666;
+	}
+
+	#editorialLayout .pageTitle {
+			display: none;
+		}
+
+	#editorialLayout div {
+		display: block;
+		width: 80%;
+		padding-right: 30px;
+		padding-bottom: 40px;
+	}
+
+
+
+	#editorialLayout h3 {
+		font-size: 15px;
+		text-transform: uppercase;
+		margin: 0 0 15px 0;
+		display: inline-block;
+		border-bottom: 4px solid #ff5759;
+	}
+	#editorialLayout p, ul, li {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	#editorialLayout p {
+		padding-bottom: 18px;
+	}
+
+	#editorialLayout .firstCol {
+		top: inherit;
+		padding-top: 16px!important;
+	}
+
+	.pageTitle {
+		display: none;
+	}
+
 	#globalNav {
 		display: block;
 		position: absolute;
-		top: 100px;
+		top: 230px;
 		width: 100%;
 		padding: 10px 0;
 		z-index: 500000;
@@ -990,7 +1064,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#menu-featured-nav {
 		padding: 0px 0 0 0;
-		font-size: 15px;
+		font-size: 18px;
 		line-height: 24px;
 		width: 90%;
 		margin: 0 auto;

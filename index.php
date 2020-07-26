@@ -32,7 +32,7 @@
 				<h1 class="pageTitle">
 				 Hi, I'm Eric.
 				</h1>
-				<h2>I'm a systems-minded product design lead with a penchant for inclusive design, design strategy, and code.</h2>
+				<h2>I'm a systems-minded, inclusive product design lead with a penchant for design and business strategy.</h2>
 	 		</div>
 
 		</section>
@@ -60,20 +60,18 @@
 
 		 <div>
 
-			 <div>
-				 <h3>What I Do</h3>
-				 <ul class="editorialList">
-					 <li>Human-centered design</li>
-					 <li>UX design</li>
-					 <li>Visual design</li>
-					 <li>Accessibility design</li>
-					 <li>Design strategy + envisioning</li>
-					 <li>Code</li>
-					 <li>Business strategy</li>
-					 <li>User research</li>
-					 <li>Provide mentorship</li>
-				 </ul>
-			 </div>
+			 <h3>What I Do</h3>
+			 <ul class="editorialList">
+				 <li>Human-centered design</li>
+				 <li>UX design</li>
+				 <li>Visual design</li>
+				 <li>Accessibility design</li>
+				 <li>Design strategy + envisioning</li>
+				 <li>Code</li>
+				 <li>Business strategy</li>
+				 <li>User research</li>
+				 <li>Provide mentorship</li>
+			 </ul>
 
 		 </div>
 
