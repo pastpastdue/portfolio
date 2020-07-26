@@ -605,10 +605,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#projectByline {
 		font-size: 24px;
+		max-width: 70%;
 		line-height: 36px;
 		margin: 250px 0 50px 0;
 		padding: 0 0 36px 0;
-		border-bottom: 4px solid #ff5759;
+		border-bottom: 4px solid #4848d8;
 	}
 
 	#projectSummary {
@@ -1414,8 +1415,8 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
     line-height: 15px;
     margin: 20px;
     padding: 36px 0;
-    border-bottom: 4px solid #ff5759;
-    border-top: 4px solid #ff5759;
+    border-bottom: 4px solid #4848d8;
+    border-top: 4px solid #4848d8;
 	}
 
 	#projectContent {
