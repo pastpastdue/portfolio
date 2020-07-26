@@ -67,7 +67,7 @@
 				 <li>Visual design</li>
 				 <li>Accessibility design</li>
 				 <li>Design strategy + envisioning</li>
-				 <li>Code</li>
+				 <li>HTML, JavaScript, React, PHP</li>
 				 <li>Business strategy</li>
 				 <li>User research</li>
 				 <li>Provide mentorship</li>
