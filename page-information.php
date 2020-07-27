@@ -9,12 +9,6 @@ Template Name: information
 		<ul class="projectList absoluteDiv">
 			<?php
 			$input = array( 'parts/shared/name.php',
-				// 'parts/shared/foursquare.php',
-				'parts/shared/lastfm.php',
-				//'parts/shared/search.php',
-				//'parts/shared/foursquare.php',
-				'parts/shared/lastfm.php',
-				//'parts/shared/foursquare.php',
 				'parts/shared/lastfm.php' );
 				  $rand_keys = array_rand($input, 2);
 
