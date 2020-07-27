@@ -39,7 +39,6 @@
 	(function() {
 		var d = new Date();
 		var currHour = d.getHours();
-		console.log(currHour);
 		if (currHour >= 0 && currHour <= 4) {
 		   document.getElementById("siteContainer").style.borderColor = "#4848d8";
 		} else if (currHour >= 4 && currHour < 5) {

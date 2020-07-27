@@ -24,14 +24,14 @@
 		<meta property="og:url" content="https://2020.ericcroskey.com/">
 		<meta property="og:title" content="Eric Croskey. Design and data.">
 		<meta property="og:description" content="Interdisciplinary designer who works at the intersection of design, code and research.">
-		<meta property="og:image" content="http://2020.ericcroskey.com/wp-admin/wp-content/themes/graduation/img/descriptor.png">
+		<meta property="og:image" content="http://ericcroskey.com/2020/wp-content/themes/portfolio/img/descriptor.png">
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image">
 		<meta property="twitter:url" content="https://2020.ericcroskey.com/">
 		<meta property="twitter:title" content="Eric Croskey. Design and data.">
 		<meta property="twitter:description" content="Interdisciplinary designer who works at the intersection of design, code and research.">
-		<meta property="twitter:image" content="http://2020.ericcroskey.com/wp-admin/wp-content/themes/graduation/img/descriptor.png">
+		<meta property="twitter:image" content="http://ericcroskey.com/2020/wp-content/themes/portfolio/img/descriptor.png">
 
 <!-- Primary Meta Tags -->
 
