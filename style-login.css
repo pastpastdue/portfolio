@@ -123,7 +123,11 @@ body {
 	}
 
 	#loginform::before {
-		content: "Please contact me to receive a password to browse my latest work.";
+		padding-bottom: 40px;
+    content: "Please contact me to receive a password to browse my latest work.";
+    display: block;
+    font-weight: 800;
+    text-transform: uppercase;
 	}
 
 	label {
