@@ -123,7 +123,7 @@ body {
 	}
 
 	#loginform::before {
-		padding-bottom: 40px;
+		padding-bottom: 20px;
     content: "Please get in touch with me if you'd like a password to view my work.";
     display: block;
     font-weight: 800;
@@ -136,7 +136,7 @@ body {
 		content: "me[at]ericcroskey.com";
 		display: block;
 		font-weight: 400;
-		font-size: 12px;
+		font-size: 11px;
 		color: black;
 	}
 
