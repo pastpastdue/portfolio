@@ -405,7 +405,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	}
 
 	.dataPost:hover {
-	 	border-color: #4848d8;!important;
+	 	border-color: #4848d8!important;
 	 	transition: border-color 0.3s;
 	 }
 
