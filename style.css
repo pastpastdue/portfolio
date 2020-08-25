@@ -404,6 +404,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border-color: #ff575a!important;
 	}
 
+	.dataPost:hover {
+	 	border-color: #4848d8;!important;
+	 	transition: border-color 0.3s;
+	 }
+
 	.orange-divider {
 		color: #ff5759!important;
 		font-size: 11px!important;
@@ -413,6 +418,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		font-weight: bold;
 		text-align: justify;
 		height: 18px;
+	}
+
+	.dataPost:hover .orange-divider {
+		color: #4848d8!important;
+		transition: color 0.3s;
 	}
 
 	 .dataPost a {
@@ -425,6 +435,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		color: #ff5759;
 		font-size: 16px;
+	}
+
+	.dataPost:hover h1 {
+		color: #4848d8!important;
+		transition: color 0.3s;
 	}
 
 	 .dataPost ul {
