@@ -87,19 +87,6 @@
 
 	add_action( 'login_enqueue_scripts', 'login_styling' );
 
-
-	//* Add custom message to WordPress login page
-
-	function smallenvelop_login_message( $message ) {
-	    if ( empty($message) ){
-	        return "<p>A majority of my work is confidential. <a href='mailto:me@ericcroskey.com?subject=Can%20I%20have%20your%20password'>Please reach out to me</a> to request a password to view it.</p>";
-	    } else {
-	        return $message;
-	    }
-	}
-
-	add_filter( 'login_message', 'smallenvelop_login_message' );
-
 	/* ========================================================================================================================
 
 	Comments
