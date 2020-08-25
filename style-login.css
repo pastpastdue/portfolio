@@ -124,7 +124,7 @@ body {
 
 	#loginform::before {
 		padding-bottom: 40px;
-    content: "Please contact me to receive a password to browse my latest work.";
+    content: "Please get in touch with me if you'd like a password to view my work.";
     display: block;
     font-weight: 800;
     text-transform: uppercase;
