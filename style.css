@@ -318,6 +318,12 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border-bottom: 1px dotted #ff5759;
 	}
 
+	#allWork .workDescription a:hover {
+		border-color: #4848d8;
+		transition: border-color 0.3s;
+
+	}
+
 	.projectList {
 		overflow: hidden;
 		padding: 20px 257px 20px 20px;
