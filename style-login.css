@@ -122,6 +122,10 @@ body {
 		padding-top: 60px;
 	}
 
+	#loginform::before {
+		content: "Please contact me to receive a password to browse my latest work.";
+	}
+
 	label {
 		font-size: 10px!important;
 		color: black;
