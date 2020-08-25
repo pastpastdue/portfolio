@@ -92,7 +92,7 @@
 
 	function smallenvelop_login_message( $message ) {
 	    if ( empty($message) ){
-	        return "<p>A majority of my work is confidential; <a href='mailto:me@ericcroskey.com?subject=Can%20I%20have%20your%20password'>please reach out to me</a> to request a password to view it.</p>";
+	        return "<p>A majority of my work is confidential. <a href='mailto:me@ericcroskey.com?subject=Can%20I%20have%20your%20password'>Please reach out to me</a> to request a password to view it.</p>";
 	    } else {
 	        return $message;
 	    }
