@@ -321,7 +321,6 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#allWork .workDescription a:hover {
 		border-color: #4848d8;
 		transition: border-color 0.3s;
-
 	}
 
 	.projectList {
