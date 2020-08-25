@@ -127,6 +127,7 @@ body {
     content: "Please get in touch with me if you'd like a password to view my work.";
     display: block;
     font-weight: 800;
+		color: black;
     text-transform: uppercase;
 	}
 
