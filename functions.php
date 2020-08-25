@@ -88,10 +88,10 @@
 	add_action( 'login_enqueue_scripts', 'login_styling' );
 
 	/* Add message above login form */
-function wpsd_add_login_message() {
-	return '<p class="message">Use this form to login to the administration area of WordPress, and make changes to your website.</p>';
-}
-add_filter('login_message', 'wpsd_add_login_message');
+	function wpsd_add_login_message() {
+		return '<p class="message">Use this form to login to the administration area of WordPress, and make changes to your website.</p>';
+	}
+	add_filter('login_headertitle', 'wpsd_add_login_message');
 
 	/* ========================================================================================================================
 
