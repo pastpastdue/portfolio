@@ -685,6 +685,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border-bottom: 0;
 	}
 
+	#projectInfo .processLinkBox a:hover {
+		background: #4848d8;
+		transition: background 0.3s;
+	}
+
 	#projectInfo .infoBox {
 		width: 100px;
 		float: left;
