@@ -1,4 +1,3 @@
-
 // SITE HEIGHT
 
 	jQuery(document).ready(function($) {
