@@ -623,12 +623,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#imageList li .imageDescription {
 		position: relative;
-		padding: 50px 10px 0 0;
+		padding: 0 10px 0 0;
 		width: 520px;
 		font-size: 10px;
-		border-top: 4px solid #ff5759;
 		margin-bottom: 10px;
-		margin-top: 50px;
+		margin-top: 0;
 		text-align: left;
 	}
 
@@ -642,6 +641,9 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		color: #ff5759;
 		font-size: 16px;
+		padding-top: 50px;
+		margin-top: 50px;
+		border-top: 4px solid #ff5759;
 		/* border-bottom: 1px dashed #ff5759; */
     padding-bottom: 8px;
     margin-bottom: 9px;
