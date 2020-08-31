@@ -103,10 +103,10 @@
 			$attachmentCaption = wp_get_attachment_caption( $attachment->ID, 'displayimage');
 
 			echo '<li>';
-			echo wp_get_attachment_image( $attachment->ID, 'displayimage' );
 			if ( $attachmentCaption ) {
 				echo '<div class="imageDescription">'. $attachmentCaption .'</div>';
 			}
+			echo wp_get_attachment_image( $attachment->ID, 'displayimage' );
 			echo '</li>';
 		}
 	}
