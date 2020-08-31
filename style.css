@@ -641,6 +641,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#imageList li .imageDescription ol {
 		list-style: decimal;
 		padding-top: 18px;
+		font-size: 10px;
 	}
 
 	#imageList li .imageDescription ul li {
@@ -652,6 +653,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#imageList li .imageDescription ul {
 		list-style: disc;
 		padding-top: 18px;
+		font-size: 10px;
 	}
 
 	#projectContent {
