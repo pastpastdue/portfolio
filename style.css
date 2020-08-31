@@ -699,7 +699,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
     line-height: 36px;
     margin: 250px 0 50px 0;
     padding: 0 0 36px 0;
-    border-bottom: 4px solid #4848d8;
+    border-bottom: 1px dashed #4848d8;
 	}
 
 	#projectByline h2 {
@@ -1577,8 +1577,8 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		width: 90%;
     margin: 20px auto 20px auto;
     padding: 36px 0;
-    border-bottom: 4px solid #4848d8;
-    border-top: 4px solid #4848d8;
+    border-bottom: 1px dashed #4848d8;
+    border-top: 1px dashed #4848d8;
 	}
 
 	#projectByline h2 {
