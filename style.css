@@ -1040,9 +1040,33 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		border-bottom: 4px solid #ff5759;
 	}
-	#editorialLayout p, ul, li {
+	#editorialLayout p, ul, ol, li {
 		font-size: 12px;
 		line-height: 18px;
+	}
+
+	#editorialLayout ol li {
+		list-style: decimal;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#editorialLayout ol {
+		list-style: decimal;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#editorialLayout ul li {
+		list-style: disc;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#editorialLayout ul {
+		list-style: disc;
+		margin-left: 30px;
+		padding-left: 10px;
 	}
 
 	#editorialLayout p {
