@@ -1532,6 +1532,22 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-align: left;
 	}
 
+	#imageList li .imageDescription h3 {
+		text-transform: uppercase;
+		color: #ff5759;
+		font-size: 14px;
+		border-bottom: 1px dashed #ff5759;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+	}
+
+	#imageList li:hover .imageDescription h3 {
+		color: #4848d8;
+		border-color: #4848d8;
+		transition: border-color 0.3s,
+								color 0.3s;
+	}
+
 	#imageList li .imageDescription ol li {
 		list-style: decimal;
 		margin-left: 30px;
