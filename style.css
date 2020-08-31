@@ -1546,6 +1546,17 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border-top: 4px solid #ff5759;
 	}
 
+		#imageList li a {
+			text-decoration: none;
+			color: #000;
+			border-bottom: 1px dotted #ff5759;
+		}
+
+		#imageList li a:hover {
+			border-bottom: 1px dotted #4848d8;
+			transition: border-color .2s;
+		}
+
 	#imageList li .imageDescription h3 {
 		text-transform: uppercase;
 		color: #ff5759;
