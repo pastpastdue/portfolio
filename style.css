@@ -631,7 +631,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		margin-bottom: 20px;
 		text-align: left;
 	}
-	
+
 	#imageList li .imageDescription ol li {
 		list-style: decimal;
 		margin-left: 30px;
@@ -640,7 +640,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#imageList li .imageDescription ol {
 		list-style: decimal;
-		padding: 18px 0;
+		padding-top: 18px;
 	}
 
 	#imageList li .imageDescription ul li {
@@ -651,7 +651,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#imageList li .imageDescription ul {
 		list-style: disc;
-		padding: 18px 0;
+		padding-top: 18px;
 	}
 
 	#projectContent {
