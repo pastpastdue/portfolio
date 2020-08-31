@@ -615,6 +615,12 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		padding: 0 0 150px 0;
 	}
 
+	#imageList li:first-of-type {
+		padding-top: 50px;
+		margin-top: 50px;
+		border-top: 4px solid #ff5759;
+	}
+
 	#imageList img {
 		padding: 0 0 10px 0;
 		max-width: 100%;
