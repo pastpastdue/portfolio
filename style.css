@@ -633,6 +633,12 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-align: left;
 	}
 
+	#imageList li .imageDescription h3 {
+		text-transform: uppercase;
+		color: #ff5759;
+		font-size: 16px;
+	}
+
 	#imageList li:hover .imageDescription {
 		border-color: #4848d8;
 		transition: border-color 0.3s;
