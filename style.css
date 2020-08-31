@@ -701,11 +701,6 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
     padding: 0;
 	}
 
-	#projectByline:hover {
-		border-color: #4848d8;
-		transition: border-color 0.3s;
-	}
-
 	#projectByline h2 {
 		width: 90%;
 	}
