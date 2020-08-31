@@ -699,7 +699,12 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
     line-height: 36px;
     margin: 250px 0 50px 0;
     padding: 0 0 36px 0;
-		border-bottom: 2px dashed #000;
+		border-bottom: 4px solid #ff5759;
+	}
+
+	#projectByline:hover {
+		border-color: #4848d8;
+		transition: border-color 0.3s;
 	}
 
 	#projectByline h2 {
