@@ -33,7 +33,7 @@
 
 	});
 
-// COLOR SCAPING
+// COLOR SHIFTS
 
 	(function() {
 		var d = new Date();
