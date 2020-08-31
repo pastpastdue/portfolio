@@ -631,6 +631,28 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		margin-bottom: 20px;
 		text-align: left;
 	}
+	
+	#imageList li .imageDescription ol li {
+		list-style: decimal;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#imageList li .imageDescription ol {
+		list-style: decimal;
+		padding: 18px 0;
+	}
+
+	#imageList li .imageDescription ul li {
+		list-style: disc;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#imageList li .imageDescription ul {
+		list-style: disc;
+		padding: 18px 0;
+	}
 
 	#projectContent {
 		width: 840px;
@@ -1480,6 +1502,28 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		font-size: 10px;
 		margin: 0 auto 20px auto;
 		text-align: left;
+	}
+
+	#imageList li .imageDescription ol li {
+		list-style: decimal;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#imageList li .imageDescription ol {
+		list-style: decimal;
+		padding: 18px 0;
+	}
+
+	#imageList li .imageDescription ul li {
+		list-style: disc;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#imageList li .imageDescription ul {
+		list-style: disc;
+		padding: 18px 0;
 	}
 
 	#projectByline {
