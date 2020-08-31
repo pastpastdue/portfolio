@@ -702,6 +702,11 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
     border-bottom: 1px dashed #4848d8;
 	}
 
+	#projectByline:hover {
+		border-color: #ff5759;
+		transition: border-color 0.3s;
+	}
+
 	#projectByline h2 {
 		width: 90%;
 	}
