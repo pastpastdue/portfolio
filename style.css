@@ -636,7 +636,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#imageList li .imageDescription {
 		position: relative;
-		padding: 0 10px 0 0;
+		padding: 0 10px 10px 0;
 		width: 520px;
 		font-size: 10px;
 		margin-bottom: 10px;
@@ -1556,7 +1556,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border-top: 4px solid #ff5759;
 	}
 
-		#imageList li .imageDescription  a {
+		#imageList li .imageDescription a {
 			text-decoration: none;
 			color: #000;
 			border-bottom: 1px dotted #ff5759;
