@@ -618,6 +618,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 	#imageList li:first-child {
 		padding-top: 50px;
 		margin-top: 50px;
+		max-width: 840px;
 		border-top: 4px solid #ff5759;
 	}
 
