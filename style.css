@@ -644,6 +644,17 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-align: left;
 	}
 
+	#imageList li a {
+		text-decoration: none;
+		color: #000;
+		border-bottom: 1px dotted #ff5759;
+	}
+
+	#imageList li a:hover {
+		border-bottom: 1px dotted #4848d8;
+		transition: border-color .2s;
+	}
+
 	#imageList li:hover .imageDescription {
 		border-color: #4848d8;
 		transition: border-color 0.3s;
