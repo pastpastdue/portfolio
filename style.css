@@ -644,8 +644,8 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		color: #ff5759;
 		font-size: 16px;
 		border-bottom: 1px dashed #ff5759;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding-bottom: 8px;
+    margin-bottom: 9px;
 	}
 
 	#imageList li:hover .imageDescription h3 {
@@ -1536,16 +1536,13 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		text-transform: uppercase;
 		color: #ff5759;
 		font-size: 14px;
-		border-bottom: 1px dashed #ff5759;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding-bottom: 9px;
+    margin-bottom: 8px;
 	}
 
 	#imageList li:hover .imageDescription h3 {
 		color: #4848d8;
-		border-color: #4848d8;
-		transition: border-color 0.3s,
-								color 0.3s;
+		transition: color 0.3s;
 	}
 
 	#imageList li .imageDescription ol li {
