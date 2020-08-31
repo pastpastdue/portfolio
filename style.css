@@ -158,9 +158,31 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		display: inline-block;
 		border-bottom: 4px solid #ff5759;
 	}
-	#editorialLayout p, ul, li {
+	#editorialLayout p, ul, ol, li {
 		font-size: 10px;
 		line-height: 18px;
+	}
+
+	#editorialLayout ol li {
+		list-style: decimal;
+		padding: 18px 0;
+	}
+
+	#editorialLayout ol {
+		list-style: decimal;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#editorialLayout ul li {
+		list-style: disc;
+		margin-left: 30px;
+		padding-left: 10px;
+	}
+
+	#editorialLayout ul {
+		list-style: disc;
+		padding: 18px 0;
 	}
 
 	#editorialLayout p {
@@ -1053,8 +1075,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#editorialLayout ol {
 		list-style: decimal;
-		margin-left: 30px;
-		padding-left: 10px;
+		padding: 18px 0;
 	}
 
 	#editorialLayout ul li {
@@ -1065,8 +1086,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 
 	#editorialLayout ul {
 		list-style: disc;
-		margin-left: 30px;
-		padding-left: 10px;
+		padding: 18px 0;
 	}
 
 	#editorialLayout p {
