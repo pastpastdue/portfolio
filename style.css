@@ -685,6 +685,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		margin-left: 30px;
 		padding-left: 10px;
 		font-size: 10px;
+		text-decoration: underline;
 	}
 
 	#imageList li .imageDescription ol {
@@ -698,6 +699,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		margin-left: 30px;
 		padding-left: 10px;
 		font-size: 10px;
+		text-decoration: underline;
 	}
 
 	#imageList li .imageDescription ul {
