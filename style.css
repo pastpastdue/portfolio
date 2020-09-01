@@ -732,6 +732,17 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		width: 90%;
 	}
 
+	#projectByline h2 a {
+			text-decoration: none;
+			color: #000;
+			border-bottom: 1px dotted #ff5759;
+	}
+
+	#projectByline h2 a:hover {
+			border-bottom: 1px dotted #4848d8;
+			transition: border-color .2s;
+	}
+
 	#projectSummary {
 		width: 520px;
 		float: left;
