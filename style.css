@@ -88,7 +88,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 ---------------------------------------------------------------------------------------------------------- */
 
 /* 400 and up */
-@media screen and (min-width:480px) {
+@media screen and (min-width:576px) {
 
 	#siteContainer {
 		border-width: 8px;
@@ -1061,7 +1061,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:575px) {
 
 	#siteContainer {
 		border-width: 8px;
