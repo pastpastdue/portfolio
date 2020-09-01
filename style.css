@@ -606,6 +606,12 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		border-top: 0;
 	}
 
+	#imageList li li:first-child {
+		padding-top: 0;
+		margin-top: 0;
+		border-top: 0;
+	}
+
 	#imageList img {
 		padding: 0 0 10px 0;
 		max-width: 100%;
