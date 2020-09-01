@@ -638,7 +638,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		position: relative;
 		padding: 0 10px 10px 0;
 		width: 520px;
-		font-size: 10px;
+		font-size: 12px;
 		margin-bottom: 10px;
 		margin-top: 0;
 		text-align: left;
@@ -684,7 +684,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		list-style: decimal;
 		margin-left: 30px;
 		padding-left: 10px;
-		font-size: 10px;
+		font-size: 12px;
 		text-decoration: underline;
 	}
 
@@ -698,7 +698,7 @@ h6 					{ font-weight: bold; /* This helps to identify headings at the initial b
 		list-style: disc;
 		margin-left: 30px;
 		padding-left: 10px;
-		font-size: 10px;
+		font-size: 12px;
 		text-decoration: underline;
 	}
 
